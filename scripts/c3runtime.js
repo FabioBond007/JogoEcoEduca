@@ -1483,6 +1483,7 @@ self.C3_ExpressionFuncs = [
 		() => "PORTA",
 		() => "PORTAL FECHAR",
 		() => 2,
+		() => 6,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0(0) / 2);
@@ -1499,7 +1500,6 @@ self.C3_ExpressionFuncs = [
 		() => "TUTORIAL",
 		() => 7,
 		() => "IniciarEscrita",
-		() => 6,
 		() => 8,
 		() => "Olá! Eu sou Vix!\nSerei seu assistente nesta nova aventura\necológica e...",
 		() => 230,
@@ -1568,7 +1568,12 @@ self.C3_ExpressionFuncs = [
 		() => "Em uma galáxia próxima, as lembranças da antiga Terra motivaram o surgimento da missão Eco. Criada pelos descendentes dos sobreviventes, a missão tinha um propósito claro: investigar se o planeta que um dia chamaram de lar poderia, enfim, receber a humanidade novamente.",
 		() => "Uma equipe formada por sete especialistas foi cuidadosamente treinada e enviada de volta à Terra. No início, tudo parecia ocorrer como planejado, mas, após algum tempo, as transmissões simplesmente cessaram e nenhuma notícia deles voltou a alcançar o planeta de origem.",
 		() => "Com a missão de resgatar a equipe desaparecida e avaliar o estado da Terra, um agente especial foi escolhido e enviado: um guaxinim habilidoso, treinado para enfrentar os perigos que aguardavam no antigo lar da humanidade.",
-		() => "Ao chegar ao planeta, o agente se deparou com uma situação muito pior do que imaginava: algo tão inesperado que acabou danificando sua nave durante o pouso. Agora, cabe a você ajudar o Guaxi a explorar esse novo mundo e descobrir o que realmente aconteceu por aqui!"
+		() => "Ao chegar ao planeta, o agente se deparou com uma situação muito pior do que imaginava: algo tão inesperado que acabou danificando sua nave durante o pouso. Agora, cabe a você ajudar o Guaxi a explorar esse novo mundo e descobrir o que realmente aconteceu por aqui!",
+		() => "ANIMACOES2",
+		() => "INIMIGO_CAIXA2",
+		() => "INIMIGO_LAMPADA2",
+		() => "PORTAL2",
+		() => "PAUSE2"
 ];
 
 

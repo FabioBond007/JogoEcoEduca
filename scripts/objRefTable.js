@@ -79,6 +79,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsMirrored,
 		C3.Plugins.System.Exps.dt,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.System.Acts.SetLayerInteractive,
+		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.System.Exps.viewportright,
 		C3.Plugins.System.Exps.viewportbottom,
@@ -87,8 +89,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetTimescale,
 		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Behaviors.Platform.Acts.SetIgnoreInput,
-		C3.Plugins.System.Acts.SetLayerVisible,
-		C3.Plugins.System.Acts.SetLayerInteractive,
 		C3.Plugins.System.Acts.Signal,
 		C3.Plugins.System.Cnds.OnSignal,
 		C3.Plugins.Text.Acts.TypewriterText,
@@ -212,7 +212,14 @@ self.C3_JsPropNameTable = [
 	{NumCena: 0},
 	{TransicaoIniciar: 0},
 	{IniciarJogo: 0},
-	{TransicaoTerminar: 0}
+	{TransicaoTerminar: 0},
+	{Vidas2: 0},
+	{Moedas2: 0},
+	{Fragmentos2: 0},
+	{pausado2: 0},
+	{Tutorial2: 0},
+	{Dialogo2: 0},
+	{FaseAtual2: 0}
 ];
 
 self.InstanceType = {
